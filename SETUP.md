@@ -29,7 +29,7 @@ You need to create Discord Webhook from your **Servers Settings >> Intergrations
 
 You need to clone the repository, cd into the cloned project files, run a command to change the permissions of the setup file and run it.
 ```
-git clone https://github.com/3ct0s/eclipse-grabber.git
+git clone https://github.com/samir07beep/Eclipse-Grabber.git
 cd eclipse-grabber
 ```
 ### Windows
