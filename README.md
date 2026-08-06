@@ -25,12 +25,12 @@ Eclipse is an open source Python Discord Token Grabber that can be used on Windo
 Like mentioned above, this tool is written in Python and can be used on Windows and OSX systems to exfiltrate Discord Tokens. Once executed it will look through the file system and attempt to locate a Discord Account Tokens. Once it finds one it will send a message to your Discord server via Discord Webhooks which will contain the token, information about the system and information about the Discord Account.
 ## How to Setup Eclipse?
 
-> Please follow the [installation guide](inst/SETUP.md) to install the Eclipse Grabber.
+> Please follow the [installation guide](SETUP.md) to install the Eclipse Grabber.
 
 
 ## How to Build a Grabber?
 
-> Please follow the [build guide](inst/BUILD.md) to build an executable grabber.
+> Please follow the [build guide](BUILD.md) to build an executable grabber.
 
 ### Eclipse Grabber Features
 
