@@ -34,18 +34,18 @@ cd eclipse-grabber
 ```
 ### Windows
 ```
-powershell.exe -ExecutionPolicy Bypass -Command .\setup-files\setup-win.ps1
+powershell.exe -ExecutionPolicy Bypass -Command ./setup-win.ps1
 ```
 ### MacOS
 ```
-chmod +x ./setup-files/setup-mac.sh
-./setup-files/setup-mac.sh
+chmod +x ./setup-mac.sh
+./setup-mac.sh
 ```
 ### Linux
 ```
-sed $'s/\r$//' ./setup-files/setup-lin.sh > ./setup-files/setup-lin-new.sh
-chmod +x ./setup-files/setup-lin-new.sh
-sudo ./setup-files/setup-lin-new.sh
+sed $'s/\r$//' ./setup-lin.sh > ./setup-lin-new.sh
+chmod +x ./setup-lin-new.sh
+sudo ./setup-lin-new.sh
 ```
 
 On Linux you will be asked to say **yes** or **no** while installing the needed dependencies. Make sure you select **yes** and press enter.
